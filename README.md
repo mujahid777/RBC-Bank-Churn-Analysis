@@ -31,15 +31,15 @@ RBC bank faces a persistent challenge of customer churn, leading to financial lo
 
 Here are some effective strategies for customer retention:
 
-Add dimensions such as customer complaints, transaction declines, or service issues to correlate with churn events.
+1. Add dimensions such as customer complaints, transaction declines, or service issues to correlate with churn events.
 
-Include data on retention strategies (e.g., customers retained after a churn warning call) to assess effectiveness.
+2. Include data on retention strategies (e.g., customers retained after a churn warning call) to assess effectiveness.
 
-To effectively target interventions, it's crucial to analyze churn rates at different stages of the customer lifecycle.
+3. To effectively target interventions, it's crucial to analyze churn rates at different stages of the customer lifecycle.
 
-Identify customers who have become inactive and measure the rate at which they leave.
+4. Identify customers who have become inactive and measure the rate at which they leave.
 
-Investigate seasonal factors (e.g., holidays, tax season) causing spikes churn.
+5. Investigate seasonal factors (e.g., holidays, tax season) causing spikes churn.
 
 
 
