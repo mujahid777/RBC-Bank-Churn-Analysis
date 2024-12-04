@@ -12,6 +12,12 @@ RBC bank faces a persistent challenge of customer churn, leading to financial lo
 4. The analysis aims on identifying various KPIs such as Inactive customers, Retain Customers, Exit Customers, and the underlying patterns like previous month exit customers vs. current 
    month exit customers, customers churn by credit type, customer churn by gender, churn %, customers by geographic location etc.
 
+# Dashboard:
+![Uploading Screenshot 2024-12-04 234643.png…]()
+![Uploading Screenshot 2024-12-04 234723.png…]()
+
+
+
 
 
 
