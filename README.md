@@ -14,7 +14,7 @@ RBC bank faces a persistent challenge of customer churn, leading to financial lo
 
 # Dashboard:
 ![Dashboardp1](https://github.com/mujahid777/RBC-Bank-Churn-Analysis/blob/main/DashboardP1.png)
-![Dashboardp2](https://github.com/mujahid777/RBC-Bank-Churn-Analysis/blob/main/DashboardP1.png)
+![Dashboardp2](https://github.com/mujahid777/RBC-Bank-Churn-Analysis/blob/main/Dashboardp2.png))
 
 
 
