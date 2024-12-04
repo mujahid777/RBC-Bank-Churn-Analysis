@@ -13,9 +13,8 @@ RBC bank faces a persistent challenge of customer churn, leading to financial lo
    month exit customers, customers churn by credit type, customer churn by gender, churn %, customers by geographic location etc.
 
 # Dashboard:
-https://github.com/mujahid777/RBC-Bank-Churn-Analysis/blob/main/DashboardP1.png
-![Uploading Screenshot 2024-12-04 234643.png…]()
-![Uploading Screenshot 2024-12-04 234723.png…]()
+![https://github.com/mujahid777/RBC-Bank-Churn-Analysis/blob/main/DashboardP1.png]
+
 
 
 
