@@ -23,9 +23,13 @@ RBC bank faces a persistent challenge of customer churn, leading to financial lo
 
 > Step-5: Developing an Interactive BI Dashboard / Report.
 
-# Dashboard:
-![Dashboardp1](https://github.com/mujahid777/RBC-Bank-Churn-Analysis/blob/main/DashboardP1.png)
-![Dashboardp2](https://github.com/mujahid777/RBC-Bank-Churn-Analysis/blob/main/Dashboardp2.png)
+## Report:
+![reportp1](https://github.com/mujahid777/RBC-Bank-Churn-Analysis/blob/main/DashboardP1.png)
+![reportp2](https://github.com/mujahid777/RBC-Bank-Churn-Analysis/blob/main/Dashboardp2.png)
+
+## Dashboard:
+![Dashboard](https://github.com/mujahid777/RBC-Bank-Churn-Analysis/blob/main/Dashboard.png)
+
 
 ## DAX calculations
 
