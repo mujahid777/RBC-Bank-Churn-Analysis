@@ -27,6 +27,44 @@ RBC bank faces a persistent challenge of customer churn, leading to financial lo
 ![Dashboardp1](https://github.com/mujahid777/RBC-Bank-Churn-Analysis/blob/main/DashboardP1.png)
 ![Dashboardp2](https://github.com/mujahid777/RBC-Bank-Churn-Analysis/blob/main/Dashboardp2.png)
 
+## DAX calculations
+
+> **Total Customers** = count(Bank_Churn[CustomerId])
+
+> **Active Customers** = CALCULATE(count(Bank_Churn[CustomerId]),
+                                    ActiveCustomer[ActiveCategory] = "Active Member")
+
+> **Inactive Customers** = CALCULATE(count(Bank_Churn[CustomerId]),
+                                       ActiveCustomer[ActiveCategory] = "Inactive Member")
+
+> **Credit Card Holders** = CALCULATE(count(Bank_Churn[CustomerId]),     
+                                         CreditCard[Category] = "Credit Card Holder")
+
+> **Non Credit Card Holders** = CALCULATE(count(Bank_Churn[CustomerId]), 
+                                                CreditCard[Category] = "Non Credit Card Holder")
+
+> **Exit Customers** = CALCULATE([Total Customers], 
+                                 ExitCustomer[ExitCategory] = "Exit")
+
+> **Retain Customers** = CALCULATE([Total Customers], 
+                                    ExitCustomer[ExitCategory] = "Retain")
+
+> **Previous Month Exit Customers** = calculate([Exit Customers],
+                                                             PREVIOUSMONTH(DateMaster[Date]))
+> **Churn %** = 
+var EC = [Exit Customers]
+var TC = [Total Customers]
+var churnper = DIVIDE(EC,TC)
+RETURN churnper
+
+> **Credit Type** = SWITCH(true(), 
+Bank_Churn[CreditScore] >= 800 && Bank_Churn[CreditScore]<= 850, "Excellent",
+Bank_Churn[CreditScore] >= 740 && Bank_Churn[CreditScore]<= 799, "Very Good",
+Bank_Churn[CreditScore] >= 670 && Bank_Churn[CreditScore]<= 739, "Good",
+Bank_Churn[CreditScore] >= 580 && Bank_Churn[CreditScore]<= 699, "Fair",
+Bank_Churn[CreditScore] >= 300 && Bank_Churn[CreditScore]<= 579, "Poor")
+
+
 ## Strategies for customer retention.
 
 Here are some effective strategies for customer retention:
